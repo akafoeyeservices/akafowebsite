@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Akafo Eye Services</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="images/logo.jpg">
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="team.html">Team</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="menu-toggle">
+<i class="fas fa-bars"></i>
+</div>
+
+</nav>
+
+</header>
+
+<!-- ==================== GALLERY SECTION ==================== -->
+
+<section class="section gallery-section">
+
+    <div class="section-title">
+
+        <h2>Clinic Gallery</h2>
+
+        <p>
+            <h3>Inside Akafo Eye Services</h3>
+        </p>
+
+    </div>
+
+
+    <!-- ==================== PHOTO GALLERY ==================== -->
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img 
+                src="images/hero.jpg" 
+                alt="Akafo Eye Services"
+                onclick="openLightbox(this)"
+            >
+        </div>
+
+        <div class="gallery-item">
+            <img 
+                src="images/wed.jpg" 
+                alt="Clinic Interior"
+                onclick="openLightbox(this)"
+            >
+        </div>
+
+        <div class="gallery-item">
+            <img 
+                src="images/gala1.jpg" 
+                alt="Akafo Eye Services Clinic"
+                onclick="openLightbox(this)"
+            >
+        </div>
+
+        
+
+        <div class="gallery-item">
+            <img 
+                src="images/image03.jpg" 
+                alt="Akafo Eye Services Team"
+                onclick="openLightbox(this)"
+            >
+        </div>
+
+        <div class="gallery-item">
+            <img 
+                src="images/akafo111.jpg" 
+                alt="Akafo Eye Services Clinic"
+                onclick="openLightbox(this)"
+            >
+        </div>
+
+        <div class="gallery-item">
+            <img 
+                src="images/doctor-111.jpg" 
+                alt="Clinic Interior"
+                onclick="openLightbox(this)"
+            >
+        </div>
+
+        <div class="gallery-item">
+            <img 
+                src="images/gag.jpg" 
+                alt="Ophthalmologist"
+                onclick="openLightbox(this)"
+            >
+        </div>
+
+        <div class="gallery-item">
+            <img 
+                src="images/gala2.jpg" 
+                alt="Akafo Eye Services Team"
+                onclick="openLightbox(this)"
+            >
+        </div>
+
+    </div>
+
+
+    <!-- ==================== VIDEO GALLERY ==================== -->
+
+    <div class="section-title video-title">
+
+        <h2>Clinic Videos</h2>
+
+        <p>
+            Take a closer look at Akafo Eye Services, our team,
+            facilities and eye care services.
+        </p>
+
+    </div>
+
+
+    <div class="video-grid">
+
+        <div class="video-card">
+
+            <video controls>
+                <source 
+                    src="videos/vid11.mp4" 
+                    type="video/mp4"
+                >
+
+                Your browser does not support the video tag.
+
+            </video>
+
+            <h3></h3>
+
+        </div>
+
+
+        <div class="video-card">
+
+            <video controls>
+                <source 
+                    src="videos/vid2.mp4" 
+                    type="video/mp4"
+                >
+
+                Your browser does not support the video tag.
+
+            </video>
+
+            <h3></h3>
+
+        </div>
+
+
+        <div class="video-card">
+
+            <video controls>
+                <source 
+                    src="videos/vid3.mp4" 
+                    type="video/mp4"
+                >
+
+                Your browser does not support the video tag.
+
+            </video>
+
+            <h3></h3>
+
+        </div>
+
+        <div class="video-card">
+
+            <video controls>
+                <source 
+                    src="videos/vid4.mp4" 
+                    type="video/mp4"
+                >
+
+                Your browser does not support the video tag.
+
+            </video>
+
+            <h3></h3>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ==================== IMAGE LIGHTBOX ==================== -->
+
+<div id="imageLightbox" class="image-lightbox">
+
+    <span 
+        class="lightbox-close"
+        onclick="closeLightbox()"
+    >
+        &times;
+    </span>
+
+    <img 
+        id="lightboxImage"
+        src=""
+        alt="Expanded gallery image"
+    >
+
+</div>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+
+<h3>Akafo Eye Services</h3>
+
+<p>
+Quality, Affordable Eye Care.
+</p>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>Email: akafoeyeservices@gmail.com</p>
+
+<p>Phone: +233 537 389 106</p>
+
+</div>
+
+<div>
+
+<h3>Location</h3>
+<p>No.1 Dakar Avenue, East Legon</p>
+<p>Accra, Ghana</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© 2026 Akafo Eye Services.
+All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
